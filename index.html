@@ -11,45 +11,61 @@
     <title>CookBook</title>
 </head>
 <body>
+    <!-- All images used are copyright free from https://unsplash.com/ -->
     <div class="container">
         <div class="header-first">
             <h1 class="col-12">COOKBOOK</h1>
             <h2 class="col-12">Eesti maitsvaim retseptiveeb</h2>
         </div>
-        <div class="header-links d-flex justify-content-around">
+        <hr class="divider visible-sm visible-xs">
+        <div class="header-links">
             <a class="col-6">Retseptid</a>
             <a class="col-6">Võta Ühendust</a>
         </div>
         <div>
-            <img class="banner">
+            <img class="banner" src="sources/banner.jpg">
         </div>
         <div class="row about-us">
             <h3 class="col-12">Meist</h3>
-            <p class="col-12 col-md-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <img class="col-12 col-md-6">
+            <div class="col-12 col-md-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col-md-6 hidden-xs hidden-sm">
+                <img src="sources/about-us.jpg">
+            </div>
         </div>
         <div class="row food-images">
             <div class="col-12 col-md-4">
-                <img class="food-image">
+                <img class="food-image" src="sources/estonian.jpg">
                 <p class="hidden-image-text">Eesti köök</p>
             </div>
             <div class="col-12 col-md-4">
-                <img class="food-image">
+                <img class="food-image" src="sources/asian.jpg">
                 <p class="hidden-image-text">Aasia köök</p>
             </div>
             <div class="col-12 col-md-4">
-                <img class="food-image">
+                <img class="food-image" src="sources/italian.jpg">
                 <p class="hidden-image-text">Itaalia köök</p>
             </div>
         </div>
     </div>
     <footer class="container-fluid">
-        <p>Author: Siim<br>
+        <div class="footer-wrapper">
+            <div class="col-3 contact-information">
+                <p class="col-12">&copy; 04.09.2022</p>
+                <p class="col-12">tel: +3725555555</p>
+                <p class="col-12">&#64;: email@email.com</p>
+            </div>
+            <div class="col-3">
+                <img class="col-12" src="sources/facebook.png">
+                <img class="col-12" src="sources/instagram.png">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
